@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px tahoma,sans-serif;
+}
+
+
+h1,h2,h3,h4 {
+  font-family: 'Satisfy', Courier;
+  margin-bottom: 20px;
+}
+
+.divider {
+  height:150px;
+}
+
+.gallery {
+  padding: 10px 20px 10px 20px;
+}
+
+.img-item {
+  margin-bottom: 25px;
+}
+
+img:hover {
+  opacity: 0.85;
+}
+
+#arrow {
+  text-align: right;
+}
+
+a {
+  color: #777;
+}
+
+a:hover {
+  color: #5E5E5E;
+}
